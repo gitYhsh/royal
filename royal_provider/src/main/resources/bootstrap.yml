@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: royal-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.8.187:8848 #注册中心地址
+      config:
+        server-addr: 192.168.8.187:8848 #配置中心地址
+server:
+  port: 17356
