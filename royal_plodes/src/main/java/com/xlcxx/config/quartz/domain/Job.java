@@ -1,4 +1,4 @@
-package com.plodes.config.quartz.domain;
+package com.xlcxx.config.quartz.domain;
 
 
 import javax.persistence.Column;

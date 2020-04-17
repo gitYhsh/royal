@@ -1,8 +1,8 @@
-package com.plodes.config.auth.imageCode.img;
+package com.xlcxx.config.auth.imageCode.img;
 
-import com.plodes.config.auth.damain.SecurityProperties;
-import com.plodes.config.auth.exceptHandler.ValidateCodeException;
-import com.plodes.utils.Constant;
+import com.xlcxx.config.auth.damain.SecurityProperties;
+import com.xlcxx.config.auth.exceptHandler.ValidateCodeException;
+import com.xlcxx.utils.Constant;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;

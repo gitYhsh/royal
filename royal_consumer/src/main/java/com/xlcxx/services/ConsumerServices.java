@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * version 2.0
  * 方法说明
  */
-@FeignClient(name = "royal-provider",fallback = EchoServiceFallback.class,configuration = FeignConfiguration.class)
+@FeignClient(name = "royal-provider")
 public interface ConsumerServices {
 
 	@GetMapping(value = "/echoProvideFegin/{str}")

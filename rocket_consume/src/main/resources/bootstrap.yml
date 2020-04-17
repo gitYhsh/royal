@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: rocket-consume
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.8.187:8848 #注册中心地址
+    stream:
+      rocketmq:
+        binder:
+          name-server: 192.168.8.187:9876
+      bindings:
+        input1:
+          destination: test-topic
+          group: test-group2
+          content-type: application/json
+          consumer:
+            orderly: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 17359

@@ -1,11 +1,68 @@
 spring:
   application:
     name: royal-provider
+  profiles:
+    active: dev
   cloud:
     nacos:
       discovery:
         server-addr: 192.168.8.187:8848 #注册中心地址
       config:
         server-addr: 192.168.8.187:8848 #配置中心地址
+        file-extension: yaml
+        namespace: 0cc9a9ed-a7fa-4af5-8a88-82c29e891b08
+        group: DEFAULT_GROUP
+    alibaba:
+      seata:
+        tx-service-group: royal-consumer
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.8.204:3309/userbase?useUnicode=true&characterEncoding=utf8&useSSL=true&&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    initialSize: 10
+    minIdle: 20
+    maxActive: 1000
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: false
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,log4j2
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 server:
   port: 17356
+
+
+mybatis:
+  mapper-locations : classpath:mapper/*.xml
+  configuration:
+    jdbc-type-for-null: null
+mapper:
+  mappers: com.xlcxx.common.config.database.MyMapper
+  not-empty: false
+  identity: mysql
+pagehelper:
+  helper-dialect: MariaDB
+  reasonable: true
+  support-methods-arguments: true
+  params:
+    count : countSql
+
+xlcxx:
+  showsql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+seata:
+  enabled: true
+  service:
+    grouplist: 192.168.8.187:8039
+    #disable-global-transaction: false

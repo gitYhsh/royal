@@ -1,4 +1,4 @@
-package com.plodes.plodes.system.domian;
+package com.xlcxx.plodes.system.domian;
 
 import java.util.Date;
 import javax.persistence.*;

@@ -1,4 +1,4 @@
-package com.plodes.config.quartz;
+package com.xlcxx.config.quartz;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

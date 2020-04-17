@@ -1,4 +1,4 @@
-package com.plodes.config.auth.imageCode;
+package com.xlcxx.config.auth.imageCode;
 
 public interface ValidateCodeGenerator {
 

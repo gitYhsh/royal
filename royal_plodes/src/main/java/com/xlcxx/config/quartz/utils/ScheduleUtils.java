@@ -1,7 +1,7 @@
-package com.plodes.config.quartz.utils;
+package com.xlcxx.config.quartz.utils;
 
-import com.plodes.config.quartz.domain.Job;
-import com.plodes.utils.Constant;
+import com.xlcxx.config.quartz.domain.Job;
+import com.xlcxx.utils.Constant;
 import org.apache.commons.lang3.StringUtils;
 import org.quartz.*;
 import org.slf4j.Logger;

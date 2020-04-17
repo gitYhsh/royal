@@ -1,10 +1,10 @@
-package com.plodes.web.controller.baseController;
+package com.xlcxx.web.controller.baseController;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.plodes.config.auth.damain.AuthonUserDetails;
-import com.plodes.plodes.system.domian.User;
-import com.plodes.utils.QueryRequest;
+import com.xlcxx.config.auth.damain.AuthonUserDetails;
+import com.xlcxx.plodes.system.domian.User;
+import com.xlcxx.utils.QueryRequest;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;

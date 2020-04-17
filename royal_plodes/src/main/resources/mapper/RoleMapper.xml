@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.plodes.plodes.mapper.system.RoleMapper">
-  <resultMap id="BaseResultMap" type="com.plodes.plodes.system.domian.Role">
+<mapper namespace="com.xlcxx.plodes.mapper.system.RoleMapper">
+  <resultMap id="BaseResultMap" type="com.xlcxx.plodes.system.domian.Role">
     <!--
       WARNING - @mbg.generated
     -->

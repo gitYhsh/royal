@@ -24,10 +24,8 @@ public class NacosConsumer extends SpringBootServletInitializer {
 		return builder.sources(NacosConsumer.class);
 	}
 	public static void main(String[] args) {
-
 		SpringApplication.run(NacosConsumer.class, args);
 
 	}
-
 
 }

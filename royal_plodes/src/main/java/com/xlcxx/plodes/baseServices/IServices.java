@@ -1,4 +1,4 @@
-package com.plodes.plodes.baseServices;
+package com.xlcxx.plodes.baseServices;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

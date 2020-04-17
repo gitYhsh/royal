@@ -1,6 +1,6 @@
-package com.plodes.plodes.baseServices.impl;
+package com.xlcxx.plodes.baseServices.impl;
 
-import com.plodes.plodes.baseServices.RedisService;
+import com.xlcxx.plodes.baseServices.RedisService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

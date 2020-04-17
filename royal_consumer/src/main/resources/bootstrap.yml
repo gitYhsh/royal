@@ -1,6 +1,6 @@
 spring:
   application:
-    name: nocos-consumer
+    name: royal-consumer
   cloud:
     nacos:
       discovery:
@@ -9,14 +9,57 @@ spring:
       transport:
         port: 8179
         dashboard: 192.168.8.187:8080   # sentinel配置
+    alibaba:
+      seata:
+        tx-service-group: royal-consumer
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.8.204:3309/orderbase?useUnicode=true&characterEncoding=utf8&useSSL=true&&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    initialSize: 10
+    minIdle: 20
+    maxActive: 1000
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: false
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,log4j2
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
 server:
   port: 17358
 feign:
   sentinel:
     enabled: true
 
+mybatis:
+  mapper-locations : classpath:mapper/*.xml
+  configuration:
+    jdbc-type-for-null: null
+mapper:
+  mappers: com.xlcxx.common.config.database.MyMapper
+  not-empty: false
+  identity: mysql
+pagehelper:
+  helper-dialect: MariaDB
+  reasonable: true
+  support-methods-arguments: true
+  params:
+    count : countSql
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+xlcxx:
+  showsql: true
+seata:
+  enabled: true
+  service:
+    grouplist: 192.168.8.187:8039

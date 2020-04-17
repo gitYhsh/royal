@@ -1,4 +1,4 @@
-package com.plodes.plodes.system.domian;
+package com.xlcxx.plodes.system.domian;
 
 import javax.persistence.*;
 import java.io.Serializable;

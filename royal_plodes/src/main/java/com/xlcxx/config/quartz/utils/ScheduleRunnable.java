@@ -1,6 +1,6 @@
-package com.plodes.config.quartz.utils;
+package com.xlcxx.config.quartz.utils;
 
-import com.plodes.utils.SpringContextUtils;
+import com.xlcxx.utils.SpringContextUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

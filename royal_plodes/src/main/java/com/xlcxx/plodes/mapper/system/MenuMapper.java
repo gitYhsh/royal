@@ -1,6 +1,6 @@
-package com.plodes.plodes.mapper.system;
+package com.xlcxx.plodes.mapper.system;
 
-import com.plodes.plodes.system.domian.Menu;
+import com.xlcxx.plodes.system.domian.Menu;
 import com.xlcxx.common.config.database.MyMapper;
 
 

@@ -1,8 +1,8 @@
-package com.plodes.config.auth.exceptHandler;
+package com.xlcxx.config.auth.exceptHandler;
 
 import com.alibaba.fastjson.JSONObject;
-import com.plodes.utils.ApiResult;
-import com.plodes.utils.Constant;
+import com.xlcxx.utils.ApiResult;
+import com.xlcxx.utils.Constant;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;

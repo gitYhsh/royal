@@ -1,9 +1,9 @@
-package com.plodes.config.auth.session;
+package com.xlcxx.config.auth.session;
 
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.plodes.utils.ApiResult;
-import com.plodes.utils.Constant;
+import com.xlcxx.utils.ApiResult;
+import com.xlcxx.utils.Constant;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 

@@ -1,8 +1,8 @@
-package com.plodes.config.auth.imageCode.img;
+package com.xlcxx.config.auth.imageCode.img;
 
 
 
-import com.plodes.config.auth.imageCode.ValidateCodeGenerator;
+import com.xlcxx.config.auth.imageCode.ValidateCodeGenerator;
 import org.springframework.stereotype.Service;
 
 import java.awt.*;

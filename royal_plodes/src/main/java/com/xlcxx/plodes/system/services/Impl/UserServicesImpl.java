@@ -1,9 +1,9 @@
-package com.plodes.plodes.system.services.Impl;
+package com.xlcxx.plodes.system.services.Impl;
 
-import com.plodes.plodes.baseServices.impl.BaseServices;
-import com.plodes.plodes.mapper.system.UserMapper;
-import com.plodes.plodes.system.domian.User;
-import com.plodes.plodes.system.services.UserServices;
+import com.xlcxx.plodes.baseServices.impl.BaseServices;
+import com.xlcxx.plodes.mapper.system.UserMapper;
+import com.xlcxx.plodes.system.domian.User;
+import com.xlcxx.plodes.system.services.UserServices;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

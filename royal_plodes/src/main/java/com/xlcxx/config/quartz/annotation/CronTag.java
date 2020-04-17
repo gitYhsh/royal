@@ -1,4 +1,4 @@
-package com.plodes.config.quartz.annotation;
+package com.xlcxx.config.quartz.annotation;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;

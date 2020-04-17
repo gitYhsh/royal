@@ -1,6 +1,6 @@
-package com.plodes.plodes.task;
+package com.xlcxx.plodes.task;
 
-import com.plodes.config.quartz.annotation.CronTag;
+import com.xlcxx.config.quartz.annotation.CronTag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

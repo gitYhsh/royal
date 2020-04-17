@@ -1,8 +1,8 @@
-package com.plodes.plodes.system.services.Impl;
+package com.xlcxx.plodes.system.services.Impl;
 
-import com.plodes.plodes.baseServices.impl.BaseServices;
-import com.plodes.plodes.system.domian.Menu;
-import com.plodes.plodes.system.services.MenuServices;
+import com.xlcxx.plodes.baseServices.impl.BaseServices;
+import com.xlcxx.plodes.system.domian.Menu;
+import com.xlcxx.plodes.system.services.MenuServices;
 import org.springframework.stereotype.Service;
 
 /**

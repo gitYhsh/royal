@@ -1,8 +1,8 @@
-package com.plodes.config.auth.imageCode.img;
+package com.xlcxx.config.auth.imageCode.img;
 
 
 
-import com.plodes.config.auth.imageCode.ValidateCode;
+import com.xlcxx.config.auth.imageCode.ValidateCode;
 
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;

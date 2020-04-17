@@ -1,7 +1,7 @@
-package com.plodes.plodes.system.services;
+package com.xlcxx.plodes.system.services;
 
-import com.plodes.plodes.baseServices.IServices;
-import com.plodes.plodes.system.domian.User;
+import com.xlcxx.plodes.baseServices.IServices;
+import com.xlcxx.plodes.system.domian.User;
 import org.springframework.cache.annotation.Cacheable;
 
 import java.util.List;
@@ -15,7 +15,7 @@ import java.util.List;
 public interface UserServices extends IServices<User> {
 
 	/**获取用户列表**/
-	@Cacheable(value="users", key="#p0")
+	//@Cacheable(value="users", key="#p0")
 	List<User> getAllUser(String username);
 
 	/**根据名称username获取用户**/

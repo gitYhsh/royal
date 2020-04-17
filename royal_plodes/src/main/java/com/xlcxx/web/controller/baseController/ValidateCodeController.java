@@ -1,11 +1,9 @@
-package com.plodes.web.controller.baseController;
+package com.xlcxx.web.controller.baseController;
 
 
-import com.plodes.config.auth.imageCode.ValidateCodeGenerator;
-import com.plodes.config.auth.imageCode.img.ImageCode;
-import com.plodes.utils.Constant;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.xlcxx.config.auth.imageCode.ValidateCodeGenerator;
+import com.xlcxx.config.auth.imageCode.img.ImageCode;
+import com.xlcxx.utils.Constant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;

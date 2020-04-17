@@ -1,4 +1,4 @@
-package com.plodes.config.auth.session;
+package com.xlcxx.config.auth.session;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.session.SessionRegistry;

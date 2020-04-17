@@ -1,9 +1,9 @@
-package com.plodes.config.auth.exceptHandler;
+package com.xlcxx.config.auth.exceptHandler;
 
 import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.plodes.utils.ApiResult;
-import com.plodes.utils.Constant;
+import com.xlcxx.utils.ApiResult;
+import com.xlcxx.utils.Constant;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 

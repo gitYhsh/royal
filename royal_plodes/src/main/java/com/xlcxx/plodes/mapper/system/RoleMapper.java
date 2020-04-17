@@ -1,6 +1,6 @@
-package com.plodes.plodes.mapper.system;
+package com.xlcxx.plodes.mapper.system;
 
-import com.plodes.plodes.system.domian.Role;
+import com.xlcxx.plodes.system.domian.Role;
 import com.xlcxx.common.config.database.MyMapper;
 
 import java.util.List;

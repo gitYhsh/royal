@@ -1,10 +1,10 @@
-package com.plodes.web.controller.system;
+package com.xlcxx.web.controller.system;
 
-import com.plodes.plodes.system.domian.User;
-import com.plodes.plodes.system.services.UserServices;
-import com.plodes.utils.ApiResult;
-import com.plodes.utils.QueryRequest;
-import com.plodes.web.controller.baseController.BaseController;
+import com.xlcxx.plodes.system.domian.User;
+import com.xlcxx.plodes.system.services.UserServices;
+import com.xlcxx.utils.ApiResult;
+import com.xlcxx.utils.QueryRequest;
+import com.xlcxx.web.controller.baseController.BaseController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -39,16 +39,13 @@ public class UserController extends BaseController {
 	public Map<String,Object> getZHUuser(QueryRequest queryRequest){
 		return this.selectByPageNumSize(queryRequest,()->userServices.getAllUser("yhsh"));
 	}
-
 	@GetMapping(value = "user/getCurentuser")
 	public ApiResult getCurentuser(){
 		return ApiResult.ok(this.getCurrentUser());
 	}
 
-
 	@GetMapping(value = "user/addAlluser")
 	public void addAlluser(User user){
-
 		String  username = passwordEncoder.encode(user.getPassword());
 		System.out.println(username);
 	}

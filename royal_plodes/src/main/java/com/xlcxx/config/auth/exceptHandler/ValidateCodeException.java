@@ -1,4 +1,4 @@
-package com.plodes.config.auth.exceptHandler;
+package com.xlcxx.config.auth.exceptHandler;
 
 import org.springframework.security.core.AuthenticationException;
 

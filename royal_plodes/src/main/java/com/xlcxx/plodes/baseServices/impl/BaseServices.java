@@ -1,8 +1,7 @@
-package com.plodes.plodes.baseServices.impl;
+package com.xlcxx.plodes.baseServices.impl;
 
-import com.plodes.plodes.baseServices.IServices;
+import com.xlcxx.plodes.baseServices.IServices;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.common.Mapper;

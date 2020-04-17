@@ -1,6 +1,6 @@
-package com.plodes.web.controller.system;
+package com.xlcxx.web.controller.system;
 
-import com.plodes.plodes.baseServices.RedisService;
+import com.xlcxx.plodes.baseServices.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

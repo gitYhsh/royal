@@ -1,4 +1,4 @@
-package com.plodes.config.redis;
+package com.xlcxx.config.redis;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;

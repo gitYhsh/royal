@@ -1,14 +1,8 @@
-package com.plodes.web.controller.task;
+package com.xlcxx.web.controller.task;
 
-import com.plodes.config.quartz.domain.Job;
-import com.plodes.config.quartz.utils.ScheduleUtils;
-import org.quartz.CronTrigger;
 import org.quartz.Scheduler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-
-import javax.annotation.PostConstruct;
-import java.util.Date;
 
 /**
  * Description: plodes

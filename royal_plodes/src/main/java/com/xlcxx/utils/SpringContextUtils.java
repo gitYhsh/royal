@@ -1,4 +1,4 @@
-package com.plodes.utils;
+package com.xlcxx.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

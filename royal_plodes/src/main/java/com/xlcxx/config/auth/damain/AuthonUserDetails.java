@@ -1,4 +1,4 @@
-package com.plodes.config.auth.damain;
+package com.xlcxx.config.auth.damain;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;

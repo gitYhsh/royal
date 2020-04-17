@@ -1,4 +1,4 @@
-package com.plodes.config.auth.damain;
+package com.xlcxx.config.auth.damain;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
